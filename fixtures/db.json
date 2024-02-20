@@ -1,13 +1,29 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title" },
-    { "id": "2", "title": "another title" }
+  "profile": [
+    { "id": "1", "name": "Mateus", "password": "brasil" },
+    { "id": "2", "name": "Tushar", "password": "india" },
+    { "id": "3", "name": "Filipe", "password": "portugal" }
   ],
   "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    {
+      "id": "1",
+      "name": "Mateus",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Filipe",
+      "text": "another comment about post 1",
+      "postId": "3"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "feedback": [
+    {
+      "id": "1",
+      "text": "The homepage is not working properly",
+      "postId": "1"
+    },
+    { "id": "2", "text": "You should add more countries", "postId": "1" }
+  ]
 }
